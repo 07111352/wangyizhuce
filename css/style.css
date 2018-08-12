@@ -1,0 +1,230 @@
+/*头部区域*/
+.header{
+	width:960px;
+	height:81px;
+	margin:0px auto;
+	padding-top:27px;
+	box-sizing:border-box;
+
+}
+.header .logo{
+	width:700px;
+	height:27px;
+	float:left;
+	background:url(../images/glb_v2.png) 0 0 no-repeat;
+}
+.header .logo a{
+	display:inline-block;
+	width:130px;
+	height:27px;
+	
+}
+.header .links{
+	width:200px;
+	height:27px;
+	line-height:27px;
+	float:right;
+	text-align:right;
+}
+.header .links a{
+	color:#039;
+	margin:0 5px;
+}
+.header .links a:hover{
+	text-decoration:underline;
+}
+/*内容区域*/
+.content{
+	width:960px;
+	height:747px;
+	margin:0 auto;
+}
+.content .top{
+	width:960px;
+	height:38px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	background:url(../images/line-content.png) repeat-x;
+}
+.content .top h2{
+	font-size:14px;
+	line-height:38px;
+	text-indent:1.5em;
+	color:#fff;
+}
+.content .bottom{
+	width:960px;
+	height:709px;
+}
+.content .bottom .artical{
+	width:643px;
+	height:709px;
+	float:left;
+	border:1px solid #ccc;
+	border-right:none;
+	border-top:none;
+	box-sizing:border-box;
+}
+.content .bottom .artical .tab{
+	width:413px;
+	height:34px;
+	margin-top:50px;
+	margin-left:116px;	
+	background:url(../images/tab.jpg) 0 0 no-repeat;
+}
+.content .bottom .artical .tab li{
+	float:left;
+	width:137px;
+	height:34px;
+	text-align:center;
+	line-height:34px;
+	color:#555;
+}
+.content .bottom .artical .tab li:nth-child(1){
+	color:#fff;
+}
+.content .bottom .artical .info{
+	width:436px;
+	height:593px;
+	margin-top:32px;
+	margin-left:78px;
+	position:relative;
+}
+.content .bottom .artical .info .line{
+	width:100%;
+	height:27px;
+}
+.content .bottom .artical .info .line>span{
+	width:82px;
+	height:27px;
+	line-height:27px;
+	margin-right:20px;
+	text-align:right;
+	float:left;
+}
+.content .bottom .artical .info .line>span .star{
+	color:red;
+	font-size:14px;
+	margin-right:5px;
+	line-height:27px;
+	height:27px;
+	font-family:verdana,sans-serif;
+}
+.content .bottom .artical .info .line input.mail_add{
+	width:212px;
+	height:27px;
+	border:1px solid #ababab;
+	box-sizing:border-box;
+	border-radius:3px;
+}
+.content .bottom .artical .info .line input.ma{
+	width:334px;
+	height:27px;
+	border:1px solid #ababab;
+	box-sizing:border-box;
+	border-radius:3px;
+}
+.content .bottom .artical .info .line input.yanzhengma{
+	width:208px;
+}
+.content .bottom .artical .info .line select{
+	width:100px;
+	height:100%;
+	border:1px solid #ababab;
+	box-sizing:border-box;
+}
+.content .bottom .artical .info>p{
+	font-size:12px;
+	color:#999;
+	margin-left:102px;
+	margin-bottom:16px;
+	line-height:26px;
+}
+.content .bottom .artical .info .tu_ma{
+	position:absolute;
+	width:122px;
+	height:80px;
+	text-align:center;
+	top:270px;
+	left:314px;
+}
+.content .bottom .artical .info .tu_ma a,.content .bottom .artical .info p a{
+	color:#039;	
+}
+.content .bottom .artical .info .tu_ma a:hover,.content .bottom .artical .info p a:hover{
+	text-decoration:underline;	
+}
+/*免费获取验证码*/
+.content .bottom .artical .info>a{
+	display:block;
+	width:138px;
+	height:28px;
+	line-height:28px;
+	font-weight:bold;
+	text-align:center;
+	font-size:14px;
+	color:#333;
+	border:1px solid #adadad;
+	margin-left:102px;
+	margin-bottom:16px;
+	border-radius:3px;
+	background:url(../images/bgx.png) 0 -72px repeat-x;
+}
+.content .bottom .artical .info>a:hover{
+	background:url(../images/bgx.png) 0 -108px repeat-x;
+}
+.content .bottom .artical .info .agree{
+	margin:3px;
+}
+.content .bottom .artical .info input[type=submit]{
+	width:119px;
+	height:37px;
+	background:url(../images/glb_v2.png) -144px -360px no-repeat;
+	color:#fff;
+	font-weight:900;
+	margin-left:102px;
+	cursor:pointer;
+}
+.content .bottom .artical .info input[type=submit]:hover{
+	background:url(../images/glb_v2.png) 0 -360px no-repeat;
+}
+.content .bottom .aside{
+	width:317px;
+	height:709px;
+	background:#f5f5f5;
+	float:right;
+	padding-top:109px;
+	padding-left:47px;
+	box-sizing:border-box;
+	border:1px solid #ccc;
+	border-top:none;
+}
+/*底部区域*/
+.footer{
+	width:960px;
+	height:93px;
+	margin:0 auto;
+	text-align:center;
+}
+.footer .footer_nav{
+	width:100%;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	display:flex;
+	justify-content:center;
+}
+.footer .footer_nav li{
+	float:left;
+	color:#999;
+	margin:0 5px;
+}
+.footer .footer_nav li a{
+	color:#999;
+}
+.footer .footer_nav li a:hover{
+	text-decoration:underline;
+}
+.footer .copy{
+	color:#999;
+}
